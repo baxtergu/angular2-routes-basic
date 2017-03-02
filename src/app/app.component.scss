@@ -1,0 +1,21 @@
+$icon-font-path: "~assets/css/bootstrap-sass-3.3.7/assets/fonts/bootstrap/";
+
+@import "~assets/css/bootstrap-sass-3.3.7/assets/stylesheets/_bootstrap";
+
+body {
+  @extend .container;
+}
+
+nav {
+  @extend .navbar;
+  @extend .navbar-default;
+
+  > a {
+    @extend .navbar-brand;
+  }
+
+  > ul {
+    @extend .nav;
+    @extend .navbar-nav;
+  }
+}
